@@ -32,7 +32,3 @@
 - **Dynamic Chunking:** База ФЗ-229 (367 тыс. символов) разбита не по количеству токенов, а по семантической структуре закона (Глава -> Статья), что сохраняет юридический контекст.
 - **Audio Processing:** Автоматическая конвертация .ogg (Telegram) в .wav через `ffmpeg` для идеальной работы голосового ввода с Whisper.
 - **Asynchronous Execution:** Тяжелые LLM-вызовы и транскрибация обернуты в `asyncio.to_thread`, чтобы не блокировать event-loop бота.
-
-## 👨‍💻 Автор
-**Maksim Goryachev**
-Full-Stack AI / ML Engineer
